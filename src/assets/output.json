@@ -1,0 +1,462 @@
+{
+    "status": "started",
+    "progress": [
+        {
+            "message": "Initializing scan",
+            "percent": 0,
+            "timestamp": "2025-08-03T17:07:30.463Z"
+        },
+        {
+            "message": "Initializing scan",
+            "percent": 25,
+            "timestamp": "2025-08-03T17:07:30.463Z"
+        },
+        {
+            "message": "Starting browser",
+            "percent": 37,
+            "timestamp": "2025-08-03T17:07:30.463Z"
+        },
+        {
+            "message": "Loading page",
+            "percent": 50,
+            "timestamp": "2025-08-03T17:07:30.500Z"
+        },
+        {
+            "message": "Page loaded",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:30.774Z"
+        },
+        {
+            "message": "Analyzing page content",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:33.778Z"
+        },
+        {
+            "message": "Getting network information",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:34.048Z"
+        },
+        {
+            "message": "Security analysis",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.163Z"
+        },
+        {
+            "message": "Security analysis completed (found 29 results)",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.439Z"
+        },
+        {
+            "message": "Technology detection",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.439Z"
+        },
+        {
+            "message": "Technology detection completed",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.458Z"
+        },
+        {
+            "message": "No technologies detected, skipping vulnerability check",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.458Z"
+        },
+        {
+            "message": "Finalizing results",
+            "percent": 100,
+            "timestamp": "2025-08-03T17:07:39.458Z"
+        }
+    ],
+    "finalResult": {
+        "targetUrl": "https://google.com",
+        "domain": "google.com",
+        "timestamp": "2025-08-03T17:07:30.463Z",
+        "scanType": "quick",
+        "userAgent": "pc",
+        "error": null,
+        "resources": {
+            "links": [
+                {
+                    "url": "https://about.google/?fg=1&utm_source=google-PL&utm_medium=referral&utm_campaign=hp-header",
+                    "text": "O nas",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://store.google.com/PL?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=pl-PL",
+                    "text": "Google Store",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://mail.google.com/mail/&ogbl",
+                    "text": "Gmail",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://www.google.com/imghp?hl=pl&ogbl",
+                    "text": "Grafika",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://www.google.pl/intl/pl/about/products",
+                    "text": "",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e",
+                    "text": "Zaloguj si\u0119",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://www.google.com/setprefs?sig=0_XNJ4VtgurnXcIYSZx7vmfukFCIo%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiLofu1kO-OAxXNVvEDHXJYOQgQ2ZgBCBc",
+                    "text": "English",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://www.google.com/intl/pl_pl/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+                    "text": "Reklamuj si\u0119",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1",
+                    "text": "Dla firm",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://google.com/search/howsearchworks/?fg=1",
+                    "text": "Jak dzia\u0142a wyszukiwarka",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://sustainability.google/intl/pl/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=",
+                    "text": "Ju\u017c 3 dekady dzia\u0142amy na rzecz klimatu: zobacz, co robimy",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://policies.google.com/privacy?hl=pl&fg=1",
+                    "text": "Prywatno\u015b\u0107",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://policies.google.com/terms?hl=pl&fg=1",
+                    "text": "Warunki",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://www.google.com/preferences?hl=pl&fg=1",
+                    "text": "Ustawienia wyszukiwania",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://www.google.com/advanced_search?hl=pl&fg=1",
+                    "text": "Szukanie zaawansowane",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com",
+                    "text": "Twoje dane w\u00a0wyszukiwarce",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://consent.google.com/d?continue=https://www.google.com/&gl=PL&m=0&pc=shp&cm=5&hl=pl&src=4",
+                    "text": "Personalizacja i\u00a0pliki cookie",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://www.google.com/history/optout?hl=pl&fg=1",
+                    "text": "Historia wyszukiwania",
+                    "isInternal": true
+                },
+                {
+                    "url": "https://support.google.com/websearch/?p=ws_results_help&hl=pl&fg=1",
+                    "text": "Pomoc dotycz\u0105ca wyszukiwania",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=pl",
+                    "text": "plik\u00f3w cookie",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://policies.google.com/privacy?hl=pl&fg=1&utm_source=ucbs",
+                    "text": "Prywatno\u015b\u0107",
+                    "isInternal": false
+                },
+                {
+                    "url": "https://policies.google.com/terms?hl=pl&fg=1&utm_source=ucbs",
+                    "text": "Warunki",
+                    "isInternal": false
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://www.google.com/tia/tia.png",
+                    "alt": "",
+                    "width": 0,
+                    "height": 0
+                },
+                {
+                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC",
+                    "alt": "",
+                    "width": 12,
+                    "height": 14
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg",
+                    "alt": "Google",
+                    "width": 40,
+                    "height": 40
+                }
+            ],
+            "scripts": [
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAQEAAAAAACAAIAAAAAAAAAAAAAAiQAQAQAAAAAAAAAAAEAAACAAAAwQAAAQgRAAADAAAAAAAAAAAAAACIAAAAADAEPBnYAUAICABAAADAAAAAAC4AABCAAACAAAAAAAAAAAAACAAAAAAAAgAAAJAAAAABQAAAAAAAAAAAAgAAAAAAAAACAAAAhAAAAAAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAAAAAA4AAAIAQAAABDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJFAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=1/ed=1/dg=3/br=1/rs=ACT90oHdCsu8ce3C3RSzNF8dkK1Jh8dBdg/ee=ALeJib:B8gLwd;AfeaP:TkrAjf;BMxAGc:E5bFse;BgS6mb:fidj5d;BjwMce:cXX2Wb;CIZTGb:Kqhykb;CxXAWb:YyRLvc;DQEued:Fevhcf;DULqB:RKfG5c;Dkk6ge:JZmW9e;DpcR3d:zL72xf;Du7NI:C6zLgf;EABSZ:MXZt9d;ESrPQc:mNTJvc;EVNhjf:pw70Gc;EjXHpb:pSHqh;EmZ2Bf:zr1jrb;EnlcNd:WeHg4;F9mqte:UoRcbe;FSxmUe:fiZR8b;Fmv9Nc:O1Tzwc;G0KhTb:LIaoZ;GEkGdd:e1RzQd;GleZL:J1A7Od;HMDDWe:G8QUdb;HqeXPd:cmbnH;IBADCc:RYquRb;IoGlCf:b5lhvb;JXJSm:ii1RGf;JXS8fb:Qj0suc;JqSq7d:y9ePhe;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;KOxcK:OZqGte;KQzWid:ZMKkN;KcokUb:KiuZBf;KpRAue:Tia57b;LBgRLc:SdcwHb,XVMNvd;LEikZe:byfTOb,lsjVmc;LXA8b:q7OdKd;LsNahb:ucGLNb;NJ1rfe:qTnoBf;NPKaK:SdcwHb;NSEoX:lazG7b;Np8Qkd:Dpx6qc;Nyt6ic:jn2sGd;OgagBe:cNTe0;OiqE2c:TFpEK;OoK5v:Sp69O;OohIYe:mpEAQb;Pjplud:PoEs9b;PpTLXd:pJYjx;Q1Ow7b:x5CSu;Q6C5kf:pfdZCe;QGR0gd:Mlhmy;QYLF2b:pAQYUd;Qw8Feb:jpavUe;R4IIIb:QWfeKf;R9Ulx:CR7Ufe;RCF5Sd:X1kBmd;RDNBlf:zPRCJb;SLtqO:Kh1xYe;SMDL4c:fTfGO,fTfGO;SNUn3:ZwDk9d,xD8Kp;ScI3Yc:e7Hzgb,e7Hzgb;ShpF6e:N0pvGc;SwCqAd:fXbCZc;SzQQ3e:dNhofb;TIUVQd:M8uRWb;TroZ1d:vVVzjb;U96pRd:FsR04;UBKJZ:LGDJGb;UDrY1c:eps46d;UVmjEd:EesRsb;UVzb9c:IvPZ6d;UyG7Kb:wQd0G;V2HTTe:RolTY;VGRfx:VFqbr;VN6jIc:ddQyuf;VOcgDe:YquhTb;VhA7bd:vAmQFf;VsAqSb:PGf2Re;WCEKNd:I46Hvd;WDGyFe:jcVOxd;Wfmdue:g3MJlb;YIZmRd:A1yn5d;YV5bee:IvPZ6d;ZSH6tc:QAvyLe;ZWEUA:afR4Cf;ZlOOMb:P0I0Ec;a56pNe:JEfCwb;aAJE9c:WHW6Ef;aCJ9tf:qKftvc;aVZq3e:EMeVIb;aZ61od:arTwJ;af0EJf:ghinId;bDXwRe:UsyOtc;bcPXSc:gSZLJb;cEt90b:ws9Tlc;cFTWae:gT8qnd;coJ8e:KvoW8;dIoSBb:ZgGg9b;dLlj2:Qqt3Gf;dowIGb:ebZ3mb,ebZ3mb;dtl0hd:lLQWFe;eBAeSb:Ck63tb;eBZ5Nd:audvde;eHDfl:ofjVkb;eJKchc:ATg1be;eO3lse:UefOmb;euOXY:OZjbQ;g8nkx:U4MzKc;gaub4:TN6bMe;gtVSi:ekUOYd;h3MYod:ws9Tlc;hK67qb:QWEO5b;hVic1b:Kqhykb;heHB1:sFczq;hjRo6e:F62sG;hlqGX:FWz1ic;hsLsYc:Vl118;hwoVHd:zw4U8c;iFQyKf:QIhFr;iySzae:a6xXfd;jJj2G:kF2o2b;k2Qxcb:XY51pe;kbAm9d:MkHyGd;lOO0Vd:OTA3Ae;lbfkyf:MqGdUd;liAz7d:kF2o2b;mWzs9c:fz5ukf;nJw4Gd:dPFZH;nrDcw:SuEoDe;oGtAuc:sOXFj;oSUNyd:fTfGO,fTfGO;oUlnpc:RagDlc;okUaUd:wItadb;pKJiXd:VCenhc;pNsl2d:j9Yuyc;pXdRYb:JKoKVe;pj82le:ww04Df;qZx2Fc:j0xrE;qaS3gd:yiLg6e;qafBPd:sgY6Zb;qavrXe:zQzcXe;qddgKe:d7YSfd,x4FYXe;rQSrae:C6D5Fc;rdexKf:FEkKD;rmWaj:PMS6Sd;ropkZ:UT1DG;sTsDMc:kHVSUb;sZmdvc:rdGEfc;slIQ5d:pnOULd;tH4IIe:Ymry6;tbg2ob:nMC03e;teSRSb:BMLai;tosKvd:ZCqP3;trZL0b:qY8PFe;uuQkY:u2V3ud;vEYCNb:FaqsVd;vGrMZ:lPJJ0c;vRlMvf:Iw9Xo;vfVwPd:lcrkwe;w3bZCb:ZPGaIb;w4rSdf:XKiZ9;w9w86d:dt4g2b;wQlYve:aLUfP;wR5FRb:O1Gjze,TtcOte;wV5Pjc:L8KGxe;xBbsrc:NEW1Qc;ysNiMc:CpIBjd;yxTchf:KUM7Z;z97YGf:oug9te;zB3wie:WtgrP;zOsCQe:Ko78Df;zaIgPb:Sl0pxd/m=cdos,hsm,jsa,mb4ZUb,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.gstatic.com/og/_/js/k=og.asy.en_US.H3gxb8WkWCg.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshnTjrUywXqYjDJG1BQQtKjQgFdw",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/ck=xjs.hd.Nv0Q5_lv-qU.L.B1.O/am=EGKpQAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAIAAgAAAAMAABQMIAAAAwCAAIAUAAAAACAAQAAAiQAQAQAAAAAAAAAggEAAgiAAENwUAAAQgRAAADAAAAAIAIEAAAEQCJAEAgCTAOPBnYAUmoSEBEBAjAAEAAA24AABCAAACAAAAAAAAAAAAACAAACAAAAgAAcJFEAJCBUDSAcAgAAAAAEgAgIAAAAAICAQAAhIIGAB4Agh4AAAAgAgAANIDAAQACAAAAAQAAAAAAAAA4AQAYAQAEgBDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJFAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=0/dg=0/br=1/ujg=1/rs=ACT90oEl3jvNWKjbEKRugPVcAnQZZZ8PKQ/m=sb_wiz,aa,abd,U9EYge,sysm,sysl,sysh,syfg,sysk,sys9,sy1ge,syt9,sysp,sysi,sysg,sysj,sysr,sysq,sysn,sysb,sys4,syrz,syr9,syr8,sysd,syt8,syt6,syt7,sysy,syt3,syt2,syt1,sybv,sybw,sybu,syt0,syt5,syt4,syrx,syfh,syff,sysx,async,pHXghd,sy1ig,sy4ps,sonic,sy2xy,sy1ct,sy16s,sy16o,syr7,syr3,syr6,syr4,syr2,sy1jl,sy1jm,syre,syqy,syet,sya9,sy9r,sy9s,sy9q,sy9o,sy9n,spch,MpJwZc,UUJqVe,sy8v,sOXFj,sy8u,qTnoBf,oGtAuc,NJ1rfe,sy97,q0xTif,y05UD,PPhKqf,sy108,sy103,sy11l,sy10b,sy10a,sy7x,sy109,sy107,sy106,sy105,sy17g,sy10t,sy17f,sy10n,sy177,sy176,sy16y,sy11v,syam,syf3,sy175,sy11n,sy16u,sy16z,sy16v,sy11t,sy11u,sy178,sy10d,sy173,sy172,sy170,symj,symf,syns,sy171,sy16q,sy17a,sy16w,sy16p,sy16t,sy16r,sy12q,sy16x,sy16n,sy16k,sy11x,sy11y,epYOx,syu7,syu6,rtH1bd,sy19l,sy19k,sy19j,sy13i,sy13n,sy13l,sy10h,sydv,sydt,syad,syaa,sya8,sy182,SMquOb,sy7o,sy7n,syfy,syfx,syga,syg8,syg7,syfw,syft,syfs,syfr,sy83,sy80,sy82,syfq,syfu,syfp,sybl,sybq,sybi,syaq,sybc,syb3,sybb,syba,syaw,syb0,syay,syax,syav,syak,syat,syb1,sybd,sya4,syac,syaf,syb6,syan,syao,syb4,syas,syap,sybz,syc0,syag,syby,sy9v,sy9y,syab,syaj,sybe,syfo,syfn?xjs=s3",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/ck=xjs.hd.Nv0Q5_lv-qU.L.B1.O/am=EGKpQAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAIAAgAAAAMAABQMIAAAAwCAAIAUAAAAACAAQAAAiQAQAQAAAAAAAAAggEAAgiAAENwUAAAQgRAAADAAAAAIAIEAAAEQCJAEAgCTAOPBnYAUmoSEBEBAjAAEAAA24AABCAAACAAAAAAAAAAAAACAAACAAAAgAAcJFEAJCBUDSAcAgAAAAAEgAgIAAAAAICAQAAhIIGAB4Agh4AAAAgAgAANIDAAQACAAAAAQAAAAAAAAA4AQAYAQAEgBDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJFAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=0/dg=0/br=1/ujg=1/rs=ACT90oEl3jvNWKjbEKRugPVcAnQZZZ8PKQ/m=syfk,syfi,sy86,uxMpU,syf8,syf9,syc8,syc4,syc6,syc2,syc7,syai,syb9,syc3,sybx,sy8o,sy8k,sy8j,sy8i,sy8h,sy8g,Mlhmy,QGR0gd,PoEs9b,Pjplud,OTA3Ae,sy8d,A1yn5d,YIZmRd,sy7v,sy7w,sy7u,sy7t,sy7r,byfTOb,lsjVmc,LEikZe,sy7p,kWgXee,ovKuLd,sgY6Zb,qafBPd,ebZ3mb,dowIGb,sy19s,sy19r,sy14n,syug,sydw,d5EhJe,sy1ac,fCxEDd,sy1ab,sy1aa,sy1a9,sy1a8,sy1a7,sy19y,sy19d,sy19f,sy19z,syw1,syvx,T1HOxc,sy19x,sy19v,sy19w,sy19u,syon,zx30Y,sy1ae,sy1ad,sy1a2,sy14i,Wo3n8,ZgGg9b,dIoSBb,sy1fi,sy1fp,sy1fq,syri,sy1fj,sy1fo,sy1fn,b6knsb,sy1fe,sy1fd,sy1av,syvz,sycj,sych,sy9g,sycl,JKoKVe,pXdRYb,sy2ci,sy9h,sy9e,sy85,O1Gjze,TtcOte,wR5FRb,kQvlef,sye9,sye6,sye2,sye1,sybf,sye0,sycc,sydz,sydy,sydx,sydu,sydo,sydm,sya7,sya2,sy9w,sy9x,sy9m,syds,sydl,sydk,sydj,syd7,sydg,sycx,syco,sycp,sydf,syb8,syd5,syde,sycs,syct,sydc,sycr,sydb,sycb,sycu,sycm,syd4,syd9,syd3,syd8,syd2,syd1,sycq,sycz,sycy,sycw,sycv,syd6,sycn,sycg,sy9l,sy9b,sy7j,zbML3c,gskBEc,sy14o,s980lf,sys7,loL8vb,sysu,syst,syss,ms4mZb,syqg,B2qlPe,syvv,NzU6V,sywj,sywi,zGLm3b,sy1es,sy1er,sy1eq,sy14z,sy150,DhPYme,sy1g5,sy1g7,sy1f8,sy1f6,sy1g6,sy1f5,sy1ga,sy1g9,sy1g3,sy1g4,KHourd?xjs=s3",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAQEAAAAAACAAIAAAAAAAAAAAAAAiAAQAQAAAAAAAAAAAEAAACAAAAwQAAAQgRAAADAAAAAAAAAAAAAACIAAAAADAEPBnYAUAICABAAADAAAAAAC4AABCAAACAAAAAAAAAAAAACAAAAAAAAgAAAJAAAAABQAAAAAAAAAAAAgAAAAAAAAACAAAAhAAAAAAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAAAAAA4AAAIAQAAABDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJBAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=0/dg=0/br=1/rs=ACT90oE2Wb-tIxrvW6-2YZd_eFoItD4rJw/m=sy1bo,P10Owf,sy1a4,gSZvdb,sywb,WlNQGd,syrw,syrt,syrs,DPreE,sywd,sywc,nabPbb,syw9,syw7,sykf,synx,CnSW2d,syw3,syw0,syw2,nRwWne,syw6,fXO0xe?xjs=s4",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAQEAAAAAACAAIAAAAAAAAAAAAAAiAAQAQAAAAAAAAAAAEAAACAAAAwQAAAQgRAAADAAAAAAAAAAAAAACIAAAAADAEPBnYAUAICABAAADAAAAAAC4AABCAAACAAAAAAAAAAAAACAAAAAAAAgAAAJAAAAABQAAAAAAAAAAAAgAAAAAAAAACAAAAhAAAAAAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAAAAAA4AAAIAQAAABDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJBAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=0/dg=0/br=1/rs=ACT90oE2Wb-tIxrvW6-2YZd_eFoItD4rJw/m=aLUfP?xjs=s4",
+                    "type": "text/javascript"
+                },
+                {
+                    "url": "https://www.google.com/xjs/_/js/k=xjs.hd.pl.d2PzRcsF5Lc.2018.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAQEAAAAAACAAIAAAAAAAAAAAAAAiAAQAQAAAAAAAAAAAEAAACAAAAwQAAAQgRAAADAAAAAAAAAAAAAACIAAAAADAEPBnYAUAICABAAADAAAAAAC4AABCAAACAAAAAAAAAAAAACAAAAAAAAgAAAJAAAAABQAAAAAAAAAAAAgAAAAAAAAACAAAAhAAAAAAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAAAAAA4AAAIAQAAABDFA0AAAAAAAAAHQACDxhSUAAAAAAAAAAAAAAAAAAAEKAgmAsJBAQIAAAAAAAAAAAAAAAAAAAAAAAhTSw0/d=0/dg=0/br=1/rs=ACT90oE2Wb-tIxrvW6-2YZd_eFoItD4rJw/m=lOO0Vd,sy8e,P6sQOc?xjs=s4",
+                    "type": "text/javascript"
+                }
+            ],
+            "styles": [
+                {
+                    "url": "https://www.google.com/xjs/_/ss/k=xjs.hd.Nv0Q5_lv-qU.L.B1.O/am=EGKpQAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAIAAgAAAAMAABAIIAAAAwAAAIAUAAAAACAAQAAAAQAAAQAAAAAAAAAggAAAgiAAENgUAAAQgRAAACAAAAAIAIEAAAEQAJAEAgCSAKAAAAAEmoQEAEBAjAAEAAA2AAABAAAAAAAAAAAAAAAAAAAAAACAAAAgAAcJFEAJCBUDSAcAgAAAAAEAAgIAAAAAIAAQAAgIIGAB4Agh4AAAAgAgAANIDAAQACAAAAAQAAAAAAAAAYAQAYAAAEgBDFA0AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAggAgAFAAAAAAAAAAAAAAAAAAAAAAAAAABACA/d=1/ed=1/br=1/rs=ACT90oHYCNDWdl5wpMiRzqQA4lcGSnE1bA/m=cdos,hsm,jsa,mb4ZUb,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi",
+                    "media": "all"
+                },
+                {
+                    "url": "https://www.gstatic.com/og/_/ss/k=og.asy.CkQFH63_4gI.L.W.O/m=ll_tdm,adcgm3,ll_fw,abld/excm=/d=1/ed=1/ct=zgms/rs=AA2YrTvGYOqmiGMk_fDQHBe8bqDJs4CmqA",
+                    "media": "all"
+                }
+            ]
+        },
+        "foundUrls": [],
+        "metaInfo": [],
+        "pageMetadata": {
+            "title": "Google",
+            "description": "",
+            "keywords": "",
+            "headers": [
+                {
+                    "name": "accept-ch",
+                    "value": "Sec-CH-Prefers-Color-Scheme\nDownlink\nRTT\nSec-CH-UA-Form-Factors\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-Full-Version\nSec-CH-UA-Arch\nSec-CH-UA-Model\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-WoW64"
+                },
+                {
+                    "name": "alt-svc",
+                    "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                },
+                {
+                    "name": "cache-control",
+                    "value": "private, max-age=0"
+                },
+                {
+                    "name": "content-encoding",
+                    "value": "br"
+                },
+                {
+                    "name": "content-security-policy-report-only",
+                    "value": "object-src 'none';base-uri 'self';script-src 'nonce-DY8Fv-1Kxj97QhmVw6FWRg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=UTF-8"
+                },
+                {
+                    "name": "cross-origin-opener-policy",
+                    "value": "same-origin-allow-popups; report-to=\"gws\""
+                },
+                {
+                    "name": "date",
+                    "value": "Sun, 03 Aug 2025 17:07:33 GMT"
+                },
+                {
+                    "name": "expires",
+                    "value": "-1"
+                },
+                {
+                    "name": "permissions-policy",
+                    "value": "unload=()"
+                },
+                {
+                    "name": "report-to",
+                    "value": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/other\"}]}"
+                },
+                {
+                    "name": "server",
+                    "value": "gws"
+                },
+                {
+                    "name": "strict-transport-security",
+                    "value": "max-age=31536000"
+                },
+                {
+                    "name": "x-frame-options",
+                    "value": "SAMEORIGIN"
+                },
+                {
+                    "name": "x-xss-protection",
+                    "value": "0"
+                }
+            ],
+            "technologies": [],
+            "canonicalUrl": "",
+            "ogTags": [],
+            "twitterTags": [],
+            "screenshot": "data:image/jpeg;base64,kos",
+            "screenshotDeviceType": "pc"
+        },
+        "networkInfo": {
+            "openPorts": [],
+            "dns": {
+                "raw": "Server:\t\t213.186.33.99\nAddress:\t213.186.33.99#53\n\nNon-authoritative answer:\nName:\tgoogle.com\nAddress: 142.250.186.206\nName:\tgoogle.com\nAddress: 2a00:1450:401b:80d::200e\n\n",
+                "addresses": [
+                    "213.186.33.99",
+                    "142.250.186.206"
+                ],
+                "nameservers": []
+            },
+            "whois": {
+                "raw": "   Domain Name: GOOGLE.COM\n   Registry Domain ID: 2138514_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: whois.markmonitor.com\n   Registrar URL: http://www.markmonitor.com\n   Updated Date: 2019-09-09T15:39:04Z\n   Creation Date: 1997-09-15T04:00:00Z\n   Registry Expiry Date: 2028-09-14T04:00:00Z\n   Registrar: MarkMonitor Inc.\n   Registrar IANA ID: 292\n   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com\n   Registrar Abuse Contact Phone: +1.2086851750\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\n   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited\n   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited\n   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited\n   Name Server: NS1.GOOGLE.COM\n   Name Server: NS2.GOOGLE.COM\n   Name Server: NS3.GOOGLE.COM\n   Name Server: NS4.GOOGLE.COM\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2025-08-03T17:07:20Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\n\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.\nDomain Name: google.com\nRegistry Domain ID: 2138514_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.markmonitor.com\nRegistrar URL: http://www.markmonitor.com\nUpdated Date: 2024-08-02T02:17:33+0000\nCreation Date: 1997-09-15T07:00:00+0000\nRegistrar Registration Expiration Date: 2028-09-13T07:00:00+0000\nRegistrar: MarkMonitor, Inc.\nRegistrar IANA ID: 292\nRegistrar Abuse Contact Email: abusecomplaints@markmonitor.com\nRegistrar Abuse Contact Phone: +1.2086851750\nDomain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)\nDomain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)\nDomain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)\nDomain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)\nDomain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)\nDomain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)\nRegistrant Organization: Google LLC\nRegistrant Country: US\nRegistrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com\nTech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com\nName Server: ns3.google.com\nName Server: ns1.google.com\nName Server: ns2.google.com\nName Server: ns4.google.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2025-08-03T17:03:44+0000 <<<\n\nFor more information on WHOIS status codes, please visit:\n  https://www.icann.org/resources/pages/epp-status-codes\n\nIf you wish to contact this domain\u2019s Registrant or Technical\ncontact, and such email address is not visible above, you may do so via our web\nform, pursuant to ICANN\u2019s Temporary Specification. To verify that you are not a\nrobot, please enter your email address to receive a link to a page that\nfacilitates email communication with the relevant contact(s).\n\nWeb-based WHOIS:\n  https://domains.markmonitor.com/whois/contact/google.com\n\nIf you have a legitimate interest in viewing the non-public WHOIS details, send\nyour request and the reasons for your request to whoisrequest@markmonitor.com\nand specify the domain name in the subject line. We will review that request and\nmay ask for supporting documentation and explanation.\n\nThe data in MarkMonitor\u2019s WHOIS database is provided for information purposes,\nand to assist persons in obtaining information about or related to a domain\nname\u2019s registration record. While MarkMonitor believes the data to be accurate,\nthe data is provided \"as is\" with no guarantee or warranties regarding its\naccuracy.\n\nBy submitting a WHOIS query, you agree that you will use this data only for\nlawful purposes and that, under no circumstances will you use this data to:\n  (1) allow, enable, or otherwise support the transmission by email, telephone,\nor facsimile of mass, unsolicited, commercial advertising, or spam; or\n  (2) enable high volume, automated, or electronic processes that send queries,\ndata, or email to MarkMonitor (or its systems) or the domain name contacts (or\nits systems).\n\nMarkMonitor reserves the right to modify these terms at any time.\n\nBy submitting this query, you agree to abide by this policy.\n\nMarkMonitor Domain Management(TM)\nProtecting companies and consumers in a digital world.\n\nVisit MarkMonitor at https://www.markmonitor.com\nContact us at +1.8007459229\nIn Europe, at +44.02032062220\n--\n",
+                "registrar": "MarkMonitor Inc.",
+                "creationDate": "1997-09-15T04:00:00Z",
+                "expirationDate": "2028-09-14T04:00:00Z"
+            }
+        },
+        "securityAnalysis": {
+            "domain": "www.google.com",
+            "url": "https://www.google.com/",
+            "insecureProtocol": false,
+            "hasMixedContent": false,
+            "hasLoginForm": false,
+            "hasPasswordField": false,
+            "hasCsrfProtection": false,
+            "hasCsp": false,
+            "hasXssProtection": true,
+            "hasXFrameOptions": true,
+            "suspiciousScripts": {
+                "count": 0,
+                "externalScripts": 1,
+                "suspiciousApiCalls": "None detected \u2705",
+                "externalScriptsList": [
+                    {
+                        "url": "https://www.gstatic.com/og/_/js/k=og.asy.en_US.H3gxb8WkWCg.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshnTjrUywXqYjDJG1BQQtKjQgFdw",
+                        "domain": "www.gstatic.com"
+                    }
+                ]
+            },
+            "interestingUrls": [],
+            "externalScripts": [
+                {
+                    "url": "https://www.gstatic.com/og/_/js/k=og.asy.en_US.H3gxb8WkWCg.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshnTjrUywXqYjDJG1BQQtKjQgFdw",
+                    "domain": "www.gstatic.com"
+                }
+            ],
+            "suspiciousApiCalls": false,
+            "evalUsage": false,
+            "innerHtmlIssues": true,
+            "trackingScripts": false,
+            "fingerprinting": false,
+            "openRedirects": false,
+            "connectionSecurity": {
+                "protocol": "HTTPS \u2705",
+                "mixedContent": "Not detected \u2705"
+            },
+            "securityHeaders": {
+                "contentSecurityPolicy": "Missing \u274c",
+                "xFrameOptions": "Present \u2705",
+                "xssProtection": "Present \u2705"
+            },
+            "formsAndInput": {
+                "loginForms": 0,
+                "passwordFields": 0,
+                "csrfProtection": "No \u26a0\ufe0f",
+                "formDetails": []
+            },
+            "frameworksAndLibraries": {
+                "detected": "None detected"
+            },
+            "emailAddresses": {
+                "count": 0,
+                "addresses": []
+            },
+            "developerComments": {
+                "count": 0,
+                "comments": []
+            },
+            "suspiciousRedirects": {
+                "count": 0,
+                "redirects": []
+            },
+            "cookies": {
+                "insecureCookies": 1,
+                "sessionCookies": 1,
+                "details": [
+                    {
+                        "name": "",
+                        "value": "",
+                        "secure": false,
+                        "httpOnly": false,
+                        "sameSite": null,
+                        "expires": false,
+                        "maxAge": false,
+                        "isSession": true
+                    }
+                ]
+            },
+            "detectableVulnerabilities": {
+                "openRedirects": "None detected \u2705",
+                "innerHtmlUsage": "Detected (3) \u26a0\ufe0f",
+                "evalUsage": "None detected \u2705",
+                "innerHtmlDetails": [
+                    {
+                        "type": "innerHTML",
+                        "snippet": "(function(){window.google.erd={jsr:1,bv:2263,sd:true,de:tru"
+                    },
+                    {
+                        "type": "innerHTML",
+                        "snippet": ".now();a.i.st=c;a.g.t.innerhtml=b;y(a,a.g.t,c);r(a.g.t);a.g.t.setattribute(\"eid\""
+                    },
+                    {
+                        "type": "innerHTML",
+                        "snippet": "h&&!(a=l[d].content.getelementbyid(c));d++);}if(a)a.innerhtml=f,b&&b(),deia&&(go"
+                    }
+                ],
+                "evalDetails": []
+            },
+            "trackingFeatures": {
+                "trackingScripts": "None detected \u2705",
+                "fingerprinting": "None detected \u2705"
+            }
+        },
+        "interestingUrls": [],
+        "fuzzingResults": [],
+        "summary": {
+            "total": 34,
+            "suspicious": 0,
+            "benign": 34
+        },
+        "technologies": [],
+        "vulnerabilities": [],
+        "fuzzing": {
+            "skipped": true
+        }
+    }
+}

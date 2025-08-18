@@ -1,0 +1,133 @@
+{
+    "tasks": [
+        {
+            "label": "convert static files",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "tools/xxd.py"
+            ],
+            "group": {
+                "kind": "none",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Clean Build Directory",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "${workspaceFolder}\\build\\*",
+                "-Recurse"
+            ],
+            "group": {
+                "kind": "none",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Icon Resource",
+            "type": "cppbuild",
+            "command": "windres",
+            "args": [
+                "-I${workspaceFolder}\\c++\\include",
+                "${workspaceFolder}\\c++\\icon\\icon.rc",
+                "-O", "coff",
+                "-o", "${workspaceFolder}\\c++\\icon\\icon.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build project",
+            "command": "g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O3",
+                "-std=c++23",
+                "-static-libgcc",
+                "-static-libstdc++",
+                "-DCURL_STATICLIB",
+                "${workspaceFolder}\\c++\\icon\\icon.o",
+                "-I${workspaceFolder}\\c++\\include",
+                "-I${workspaceFolder}\\c++",
+                "-Ic:\\Users\\user\\AppData\\Local\\msys2\\mingw64\\include",              
+                "-I${workspaceFolder}\\c++\\libs",
+                "-L${workspaceFolder}\\c++\\libs",
+                "-Lc:\\Users\\user\\AppData\\Local\\msys2\\mingw64\\lib",
+                "-g",
+                "${workspaceFolder}\\c++\\profile.cc",
+                "${workspaceFolder}\\c++\\AccountAnalyzer.cc",
+                "${workspaceFolder}\\c++\\_server.cc",
+                "${workspaceFolder}\\c++\\embedded_files_data.cc",
+                "${workspaceFolder}\\c++\\embedded_files_map.cc",
+                "${workspaceFolder}\\c++\\main.cc",
+                "-lcurl",
+                "-lzstd",
+                "-lssl",
+                "-lpsl",
+                "-lidn2",
+                "-lunistring",
+                "-liconv",
+                "-lcrypto",
+                "-lz",
+                "-ljsoncpp",
+                "-lsqlite3",
+                "-lbcrypt",
+                "-lws2_32",
+                "-lwinmm",
+                "-lcrypt32",
+                "-lMswsock",
+                "-lole32",
+                "-loleaut32",
+                "-luuid",
+                "-ladvapi32",
+                "-lshell32",
+                "-lshlwapi",
+                "-luser32",
+                "-lversion",
+                "-static",
+                "-lwinpthread",
+                "-mwindows",
+                "-o",
+                "${workspaceFolder}\\build\\cyren.exe"
+
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "Compiler: g++.exe"
+        },
+        {
+            "label": "tasks",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "dependsOn": [
+                "convert static files",
+                "Clean Build Directory",
+                "Compile Icon Resource",
+                "C/C++: g++.exe build project",
+            ],
+            "dependsOrder": "sequence",
+            "detail": "Starts building tasks"
+        }
+    ],
+    "version": "2.0.0"
+}

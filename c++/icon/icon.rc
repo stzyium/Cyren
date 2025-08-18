@@ -1,0 +1,10 @@
+/*
+ * Author: github.com/stzyium
+ * Email: styyzy@github.com
+ * License: MIT
+ * Date: 2025-08-16
+ * File: analyzer.hh
+ */
+
+#include "res.h"
+CYRENS_ICON0 ICON "icon64.ico"

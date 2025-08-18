@@ -1,0 +1,18 @@
+# Build folders
+/build/
+/bin/
+/*.exe
+*.obj
+*.o
+
+# IDE files
+.vscode/
+*.sln
+*.vcxproj*
+
+# Other
+node_modules/
+tools/headersgen.py
+tools/cmdgen.py
+*.log
+tests/

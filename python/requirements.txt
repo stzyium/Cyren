@@ -1,0 +1,6 @@
+curl_cffi
+numpy
+pandas
+pywebview
+flask
+flask_cors

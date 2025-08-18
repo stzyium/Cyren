@@ -1,0 +1,9 @@
+/*
+ * Author: github.com/stzyium
+ * Email: styyzy@github.com
+ * License: MIT
+ * Date: 2025-08-16
+ * File: res.h
+ */
+
+#define CYRENS_ICON0 101
