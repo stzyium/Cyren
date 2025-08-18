@@ -127,7 +127,7 @@ pythonw main.pyw # no console
 ## :compass: Roadmap
 
 * [x] Reimplmention in c++ for standalone executable builds
-* [ ] Fix cyrengpt content generator in cpp impl
+* [ ] Fix CyrenAi content generator in cpp impl
 * [ ] Newsfeed
 
 ## :warning: License
