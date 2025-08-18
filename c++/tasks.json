@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "label": "convert static files",
+            "label": "Convert static files",
             "type": "shell",
             "command": "python",
             "args": [
@@ -120,7 +120,7 @@
             },
             "problemMatcher": [],
             "dependsOn": [
-                "convert static files",
+                // "Convert static files",
                 "Clean Build Directory",
                 "Compile Icon Resource",
                 "C/C++: g++.exe build project",
