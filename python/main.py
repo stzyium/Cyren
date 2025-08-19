@@ -62,9 +62,6 @@ if not _DISABLE_APP_MODE:
         style &= ~WS_MAXIMIZEBOX
         SetWindowLong(hwnd, GWL_STYLE, style)
 
-    def on_loaded():
-        threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": 18081}, daemon=True).start()
-        maximize_and_lock()
 
 def main():
     init_db()
@@ -75,7 +72,11 @@ def main():
             resizable=True,
             maximized=True,
         )
-        webview.start(on_loaded)
+        webview.start(lambda:
+            threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": 18081}, daemon=True).start()
+            or
+            maximize_and_lock()
+        )
     else:
         app.run("127.0.0.1", 18081)
 if __name__ == '__main__':
