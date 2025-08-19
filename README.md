@@ -124,7 +124,7 @@ pythonw main.pyw # no console
 
 
 <!-- Roadmap -->
-## :compass: Roadmap
+## :compass: Todo
 
 * [x] Reimplmention in c++ for standalone executable builds
 * [ ] Fix CyrenAi content generator in cpp impl
