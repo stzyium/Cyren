@@ -7,8 +7,6 @@
     An awesome assistant to keep you safe online 
   </p>
   
-  
-<!-- Badges -->
 <p>
   <img src="https://img.shields.io/badge/version-0.1a-blue" alt="contributors" />
   <img src="https://img.shields.io/badge/last%20commit-August%202025-red" alt="last update" />
@@ -29,7 +27,6 @@
 
 <br />
 
-<!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
@@ -42,11 +39,9 @@
 - [License](#warning-license)
 
 
-<!-- About the Project -->
 ## :star2: About the Project
 A cyber safety toolkit to keep you safe online, with awesome user interface built using react.js
 
-<!-- Screenshots -->
 ### :camera: Screenshots
 
 <div align="center"> 
@@ -59,7 +54,6 @@ A cyber safety toolkit to keep you safe online, with awesome user interface buil
   <img src="https://i.ibb.co/fzpXqmCw/image.png">
 </div>
 
-<!-- TechStack -->
 ### :space_invader: Tech Stack
 
 <details>
@@ -91,8 +85,7 @@ A cyber safety toolkit to keep you safe online, with awesome user interface buil
   </ul>
 </details>
 
-<!-- Color Reference -->
-### :art: Compatibility
+### :art: Compatibility for /c++
 
 | OS             | Supported                                                               |
 | ----------------- | ------------------------------------------------------------------ |
