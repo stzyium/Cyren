@@ -35,7 +35,7 @@ import threading
 from _server import app, init_db
 import sys
 
-if "--no-webview" in sys.argv:
+if "--debug" in sys.argv:
     _DISABLE_APP_MODE = 1
 
 

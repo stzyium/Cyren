@@ -118,9 +118,10 @@ pythonw main.pyw # no console
 ```
 Or run with terminal (no webview)
 ```bash
-python main.py --no-webview
+python main.py --debug
 ```
-<!-- Roadmap -->
+> Visit http://127.0.0.1:18081/ to access the application (only if running with --debug flag)
+
 ## :compass: Todo
 
 * [x] Reimplmention in c++ for standalone executable builds
