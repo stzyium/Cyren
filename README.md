@@ -120,9 +120,13 @@ Run the app using python (default port 18081)
 cd python
 pip install -r requirements.txt
 pythonw main.pyw # no console
+# Alternatively
+# python main.py 
 ```
-
-
+Or run with terminal (no webview)
+```bash
+python main.py --no-webview
+```
 <!-- Roadmap -->
 ## :compass: Todo
 
