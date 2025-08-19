@@ -29,20 +29,20 @@
 
 # :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
-  * [Compatibility](#art-compatibility)
-- [Getting Started](#toolbox-getting-started)
-- [Todo](#compass-todo)
-- [License](#warning-license)
+- [About the Project](#about-the-project)
+  * [Screenshots](#screenshots)
+  * [Tech Stack](#tech-stack)
+  * [Features](#features)
+  * [Compatibility](#compatibility)
+- [Getting Started](#getting-started)
+- [Todo](#todo)
+- [License](#license)
 
 
-## :star2: About the Project
+## About the Project
 A cyber safety toolkit to keep you safe online, with awesome user interface built using react.js
 
-### :camera: Screenshots
+### Screenshots
 
 <div align="center"> 
   <img src="https://i.ibb.co/V4T4wNt/image.png" alt="screenshot" />
@@ -54,7 +54,7 @@ A cyber safety toolkit to keep you safe online, with awesome user interface buil
   <img src="https://i.ibb.co/fzpXqmCw/image.png">
 </div>
 
-### :space_invader: Tech Stack
+### Tech Stack
 
 <details>
   <summary>Interface</summary>
@@ -85,7 +85,7 @@ A cyber safety toolkit to keep you safe online, with awesome user interface buil
   </ul>
 </details>
 
-### :art: Compatibility for /c++
+### Compatibility for /c++
 
 | OS             | Supported                                                               |
 | ----------------- | ------------------------------------------------------------------ |
@@ -96,7 +96,7 @@ A cyber safety toolkit to keep you safe online, with awesome user interface buil
 
 
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+## Getting Started
 
 Clone the repo
 ```bash
@@ -122,12 +122,11 @@ python main.py --debug
 ```
 > Visit http://127.0.0.1:18081/ to access the application (only if running with --debug flag)
 
-## :compass: Todo
+## Todo
 
 * [x] Reimplmention in c++ for standalone executable builds
 * [ ] Fix CyrenAi content generator in cpp impl
 * [ ] Newsfeed
 
-## :warning: License
-
+## License
 Distributed under the MIT License. See LICENSE for more information.
