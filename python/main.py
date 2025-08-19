@@ -62,9 +62,9 @@ if not _DISABLE_APP_MODE:
         style &= ~WS_MAXIMIZEBOX
         SetWindowLong(hwnd, GWL_STYLE, style)
 
-def on_loaded():
-    threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": 18081}, daemon=True).start()
-    maximize_and_lock()
+    def on_loaded():
+        threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": 18081}, daemon=True).start()
+        maximize_and_lock()
 
 def main():
     init_db()
