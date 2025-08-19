@@ -2,21 +2,31 @@
  * Author: github.com/stzyium
  * Email: styyzy@github.com
  * License: MIT
- * Date: 2025-08-16
+ * Date: 2025-08-19
  * File: main.py
 """
 
-# NOT USEFULL CURRENTLY
+# # NOT USEFULL CURRENTLY
 # class c:
+#     """Minimal implementation of C-like macros"""
+
 #     _DEFINED_VARS: list = []
 
 #     @classmethod
 #     def define(cls, var: str) -> int:
+#         """Define variables\n
+#         Usage:
+#             c.define(VARIABLE: str) -> Literal[0]:
+#         """
 #         cls._DEFINED_VARS = [*cls._DEFINED_VARS, var]
 #         return 0
     
 #     @classmethod
 #     def defined(cls, var: str) -> int:
+#         """Check if a variable is defined previously using c.define()\n
+#         Usage:
+#             c.defined(VARIABLE: str) -> (returns 1 if defined else 0)
+#         """
 #         return 1 if var in cls._DEFINED_VARS else 0
 
 _DISABLE_APP_MODE = 0
