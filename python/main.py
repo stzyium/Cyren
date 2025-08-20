@@ -30,10 +30,14 @@
 #         return 1 if var in cls._DEFINED_VARS else 0
 
 _DISABLE_APP_MODE = 0
+_PORT = 18081
 
 import threading
 from _server import app, init_db
 import sys
+from chrome.locate import locate_chrome, subprocess
+from tempfile import mkdtemp
+import shutil
 
 if "--debug" in sys.argv:
     _DISABLE_APP_MODE = 1
@@ -66,21 +70,32 @@ if not _DISABLE_APP_MODE:
 def main():
     init_db()
     if not _DISABLE_APP_MODE:
-        webview.create_window(
-            "Cyren",
-            "http://localhost:5000/loading.html",
-            resizable=True,
-            maximized=True,
-        )
-        webview.start(lambda:
-            threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": 18081}, daemon=True).start()
-            or
-            maximize_and_lock()
-        )
+        if (chrome:=locate_chrome()):
+            try:
+                tempdir = mkdtemp("chrome")
+                threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": _PORT}, daemon=True).start()
+                subprocess.run(
+                    [chrome, "--app=http://localhost:{}/loading.html".format(_PORT), "--user-data-dir=" + tempdir, "--no-first-run", "--no-default-browser-check", "--disable-gpu"],
+                    stderr=subprocess.DEVNULL,
+                    stdout=subprocess.DEVNULL,
+                )
+            except subprocess.CalledProcessError:
+                print("Failed to start chrome")
+            finally:
+                shutil.rmtree(tempdir, ignore_errors=True)
+        else:
+            webview.create_window(
+                "Cyren",
+                "http://localhost:{}/loading.html".format(_PORT),
+                resizable=True,
+                maximized=True,
+            )
+            webview.start(lambda:
+                threading.Thread(target=app.run, kwargs={"host": "127.0.0.1", "port": _PORT}, daemon=True).start()
+                or
+                maximize_and_lock()
+            )
     else:
-        app.run("127.0.0.1", 18081)
+        app.run("127.0.0.1", _PORT)
 if __name__ == '__main__':
-    try:
-        main()
-    except Exception as e:
-        print("Terminating:", e)
+    main()
