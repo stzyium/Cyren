@@ -347,7 +347,7 @@ def fetch_profile(username):
     profile = profilefetcher.fetch(username)
     if isinstance(profile, dict) and "error" in profile:
         return jsonify(profile), 404
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pfp.jpg'), "wb") as f:
+    with open('{}/pfp.jpg'.format(app.static_folder), "wb") as f:
         f.write(get(profile.profile_pic_url).content)
     return {
         "username": profile.username,
